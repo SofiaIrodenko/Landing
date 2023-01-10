@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacts Page</title>
+    <link rel="shortcut icon" href="img/heart.png" type="image/x-icon">
 </head>
+
 <body>
     <header class="header__contacts">
-        <div class="contacts">
-          <h2>Contacts</h2>
-          <p>Order our services now!</p>
-          <a href="tell:+ 1 (234) 567 89 00">+ 1 (234) 567 89 00</a></p>
+        <div class="header__phone">
+            <h2>Contacts</h2>
+            <p>Order our services now!</p>
+            <a href="tell:+ 1 (234) 567 89 00">+ 1 (234) 567 89 00</a></p>
         </div>
     </header>
     <main>
         <section class="questions">
-           <div class="questions__title">
-            <h2 class="question__title">Still have questions?</h2>
-            <p class="question__subtitle">Perhaps you'll find an answer to your question here.</p>
-           </div>
+            <div class="questions__title">
+                <h2 class="question__title">Still have questions?</h2>
+                <p class="question__subtitle">Perhaps you'll find an answer to your question here.</p>
+            </div>
             <form class="question__form" action="https://formspree.io/f/mwkjkyrg" method="POST">
                 <input class="form__fullname" name="fullname" type="text" placeholder="Enter your full name*" required>
                 <input class="form__phone" name="phone" type="tel" placeholder="Enter your phone number*" required>
@@ -28,12 +31,27 @@
                 <input class="form__date" name="date" type="date" placeholder="Choose date">
                 <input class="form__submit" type="submit" value="Requeste a quote">
             </form>
-          
-            <iframe class="questions__map" src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.4902372361253!2d-73.7985773838697!3d40.77323534180251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28a87366ccda9%3A0xd5d49f81c24f6ad9!2sThe%20Pet%20Doctor%20of%20Flushing!5e0!3m2!1sru!2sua!4v1673344643415!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
         </section>
     </main>
-    <footer>
+    <footer class="footer__contacts">
+        <iframe class="footer__map"
+            src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.4902372361253!2d-73.7985773838697!3d40.77323534180251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28a87366ccda9%3A0xd5d49f81c24f6ad9!2sThe%20Pet%20Doctor%20of%20Flushing!5e0!3m2!1sru!2sua!4v1673344643415!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        <section class="footer__contact">
+            <h2>Contacts</h2>
+            <p class="address">2562 Francis Lewis Blvd, Flushing, NY 11358</p>
+            <div class="footer__working-hours">
+                <p>Mon - Sat: 11 AM - 9 PM</p>
+                <p>Sun: 11 AM - 7 PM</p>
+            </div>
+            <div class="footer__contact-links">
+                <p><a href="mailto:bestpet@email.com">bestpet@email.com</a></p>
+                <p><a href="tell:+ 1 (234) 567 89 00">+ 1 (234) 567 89 00</a></p>
+            </div>
 
+        </section>
     </footer>
 </body>
+
 </html>
