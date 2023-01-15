@@ -1,13 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Mono+One&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Poppins&family=Rubik+Mono+One&family=Rubik:wght@400;500&display=swap');
+body {
+    background-color: var(--background-color);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1 {
     overflow-wrap: break-word;
     color: rgb(4, 15, 115);
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 62px;
- 
 }
 
-h2 {}
+:root {
+    --background-color: #fdf5e6;
+    --accent-color: #96c9d0;
+    --title-text-color: rgb(4, 15, 115);
+    --subtitle-text-color: rgb(66, 72, 117);
+    --text-color: rgb(106, 110, 143);
+    scroll-behavior: smooth;
+}
 
-    
+.container {
+    max-width: 1100px;
+    margin: auto;
+}

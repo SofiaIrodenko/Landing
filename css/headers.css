@@ -1,78 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Mono+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Mono+One&display=swap');
-
-.header{
+.header {
     background-color: #fdf5e6;
+    padding: 5px;
     align-items: center;
 }
 
-.header__logo-link {
+.header-nav__logo {
     width: 168px;
-    text-align: center;
+    margin-right: 100px;
+    margin-top: 20px;
 }
 
-.header__menu {
+.header-nav__menu {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
 .menu__item {
-    color: rgb(106, 110, 143);
+    color: var(--text-color);
     font-size: 15px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-decoration-line: none;
-    margin-top: 0px;
+    margin-top: 10px;
+
+}
+
+.menu__item:hover {
+    text-decoration: underline;
+    color: rgb(255, 91, 46);
+}
+
+@media (min-width: 500px) {
+    .header__nav {
+        display: flex;
+    }
+
+    .header-nav__menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 2;
+    }
 }
 
 .header__social-icons {
     color: rgb(255, 91, 46);
-    text-align: right;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.icon {
+    color: rgb(255, 91, 46);
+}
+
+.header__title {
+    margin-top: 200px;
+    vertical-align: baseline;
 }
 
 .header__text {
-    color: rgb(66, 72, 117);
+    color: var(--subtitle-text-color);
     font-size: 19px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
 }
 
 .header__picture {
-    width: 470px;
-    text-align: center;
+    width: 500px;
     border-color: white;
     border-style: solid;
     border-radius: 100px;
     border-width: 20px;
-    position: center;
+    margin-left: 900px;
+    margin-top: -100px;
+    float: right;
+
 }
 
 .header__service-link {
-    color: rgb(255, 255, 255);
-    text-decoration-line: none;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    border-color: rgb(255, 91, 46);
-    border-style: solid;
-    border-radius: 25px;
-    border-width: ;
-    background-color: rgb(255, 91, 46);
-    border-width: 15px;
-    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 500px;
+    font-family: Poppins;
+    padding-right: 30px;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+
 }
-.service__image {
-color: rgb(255, 255, 255);
-font-weight: 400px;
+
+.header__service-link-image {
+    position: relative;
+    top: 2px;
+    right: 14px;
 }
-.header__phone-image{
+
+.header__phone-image {
     color: rgb(45, 53, 121);
 }
-.header__phone{
+
+.header__phone-number {
     color: rgb(45, 53, 121);
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    font-weight: 700;
-    font-stretch 100%;
+    font-weight: bold;
     text-decoration-line: none;
-    text-align: center;
-    
+    position: relative;
+    bottom: 650px;
+    left: 500px;
+
+}
+
+.header__phone-number:hover {
+    text-decoration: underline;
+}
+
+.header__links {
+    display: inline;
+    flex-flow: row;
+    flex-direction: row;
+    align-items: center;
+
+
 }
