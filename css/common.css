@@ -19,10 +19,13 @@ h1 {
 
 :root {
     --background-color: #fdf5e6;
+    --background-color-beer: #2c221d;
+    --background-color-beer-light: rgb(244, 238, 225);
     --accent-color: #96c9d0;
     --title-text-color: rgb(4, 15, 115);
     --subtitle-text-color: rgb(66, 72, 117);
     --text-color: rgb(106, 110, 143);
+    --color-xxx: rgb(150, 90, 28);
     scroll-behavior: smooth;
 }
 
