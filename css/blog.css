@@ -29,6 +29,7 @@
     color: rgb(97, 78, 68);
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
+    padding-bottom: 50px;
 }
 
 .blog-articles {
@@ -36,11 +37,19 @@
     border-style: solid;
     border-color: rgb(97, 78, 68);
     border-width: 2px;
+    padding: 5px;
     box-sizing: px;
     text-align: center;
     padding-left: 350px;
     margin-bottom: 500px;
-
+    width: 930px;
+    height: 450px;
+    min-width: 270px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 300px;
+    display: flex
 }
 
 .blog__text {
@@ -48,7 +57,13 @@
     font-size: 24px;
     width: 970px;
     height: 470px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
 }
 

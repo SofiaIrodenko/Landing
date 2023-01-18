@@ -1,0 +1,242 @@
+.animals__range{
+    display: flex;
+    flex-direction: row;
+}
+
+.cats-container{
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.cat__icon{
+    border-style: solid;
+    border-radius: 50px;
+    background-color: #96cbff;
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.cats-title{
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title-text-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.line__divider {
+    border-style: solid;
+    width: 50px;
+    color: var(--second-accent-color);
+}
+.cats-text{
+    font-family: Poppins;
+    color: var(--text-color);
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.dogs__container{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.dog__icon{
+    border-style: solid;
+    border-radius: 50px;
+    background-color: var(--second-accent-color);
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding-top: 8px;
+}
+.dogs-title{
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title-text-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.dogs-text{
+    font-family: Poppins;
+    color: var(--text-color);
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.rabbits__container{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.rebbits__icon {
+    border-style: solid;
+    border-radius: 50px;
+    background-color: #f6c141;
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.rabbits-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title-text-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.rabbits-text {
+    font-family: Poppins;
+    color: var(--text-color);
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fish__container{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.fish__icon{
+    border-style: solid;
+    border-radius: 50px;
+    background-color: #65d5e2;
+    color: white;
+    height: 60px;
+    width: 60px;
+    align-items: left;
+}
+.fish-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title-text-color);
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fish-text {
+    font-family: Poppins;
+    color: var(--text-color);
+    font-size: 17px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.turtles__container{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.turtles__icon {
+    border-style: solid;
+    border-radius: 50px;
+    background-color: var(--second-accent-color);
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.turtles-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title-text-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.turtles-text {
+    font-family: Poppins;
+    color: var(--text-color);
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.birds__container{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.birds-icon {
+    border-style: solid;
+    border-radius: 50px;
+    background-color: var(--second-accent-color);
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.birds-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title-text-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.birds-text {
+    font-family: Poppins;
+    color: var(--text-color);
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.animals__range-link {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 700;
+}
+

@@ -9,7 +9,10 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    max-width: 1100px;
+    margin: auto;
+}
 h1 {
     overflow-wrap: break-word;
     color: rgb(4, 15, 115);
@@ -22,6 +25,7 @@ h1 {
     --background-color-beer: #2c221d;
     --background-color-beer-light: rgb(244, 238, 225);
     --accent-color: #96c9d0;
+    --second-accent-color: rgb(255, 91, 46);
     --title-text-color: rgb(4, 15, 115);
     --subtitle-text-color: rgb(66, 72, 117);
     --text-color: rgb(106, 110, 143);
