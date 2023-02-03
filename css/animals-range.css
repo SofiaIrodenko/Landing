@@ -15,6 +15,7 @@
     flex: 1;
     padding-top: 20px;
     padding-left: 20px;
+    margin: 20px;
 }
 .cat__icon{
     border-style: solid;
@@ -57,6 +58,7 @@
     flex: 1;
     padding-top: 20px;
     padding-left: 20px;
+    margin: 20px;
 }
 .dog__icon{
     border-style: solid;
@@ -93,6 +95,7 @@
     flex: 1;
     padding-top: 20px;
     padding-left: 20px;
+    margin: 20px;
 }
 .rebbits__icon {
     border-style: solid;
@@ -131,6 +134,7 @@
     flex: 1;
     padding-top: 20px;
     padding-left: 20px;
+    margin: 20px;
 }
 .fish__icon{
     border-style: solid;
@@ -169,6 +173,7 @@
     flex: 1;
     padding-top: 20px;
     padding-left: 20px;
+    margin: 20px;
 }
 .turtles__icon {
     border-style: solid;
@@ -206,6 +211,7 @@
     flex: 1;
     padding-top: 20px;
     padding-left: 20px;
+    margin: 20px;
 }
 .birds-icon {
     border-style: solid;

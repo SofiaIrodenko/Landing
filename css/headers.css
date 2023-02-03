@@ -1,7 +1,18 @@
 .header {
-    background-image: url(../img/header-background.png);
+    
     padding: 5px;
     align-items: center;
+    background-color: #fef6ed;
+    
+}
+.header__banner {
+    background-image: url(../img/header-background.png);
+    background-size: cover;
+    background-position: 58% 73%;
+    min-height: 765px;
+     margin-left: auto;
+     margin-right: auto;
+
 }
 
 .header-nav__logo {
@@ -40,7 +51,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        flex: 2;
+        flex: 1;
     }
 }
 
@@ -77,7 +88,9 @@
     float: right;
 
 }
-
+.header__button {
+    margin-right: 20px;
+}
 .header__service-link {
     color: white;
     text-decoration: none;
@@ -87,7 +100,6 @@
     position: relative;
     bottom: 5px;
     left: 10px;
-
 }
 
 .header__service-link-image {
@@ -96,9 +108,7 @@
     right: 14px;
 }
 
-.header__phone-image {
-    color: rgb(45, 53, 121);
-}
+
 
 .header__phone-number {
     color: rgb(45, 53, 121);
@@ -106,9 +116,7 @@
     font-size: 15px;
     font-weight: bold;
     text-decoration-line: none;
-    position: relative;
-    bottom: 650px;
-    left: 500px;
+  
 
 }
 
@@ -117,10 +125,9 @@
 }
 
 .header__links {
-    display: inline;
-    flex-flow: row;
+    display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-
-
+    margin-top: 60px;
 }

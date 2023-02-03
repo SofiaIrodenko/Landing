@@ -1,69 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Poppins&family=Rubik+Mono+One&family=Rubik:wght@400;500&display=swap');
-
 .blog {
     text-align: center;
-    background-color: var(--background-color-beer-light);
+    background-color: var(--background-color-light);
+    margin-top: -5px;
+    display: block;
 }
-
+/* .blog__container {
+    padding: 0 1em;
+    max-width: 60rem;
+    margin: 0 auto; */
+/* } */
 .separator {
     color: var(--color-xxx);
     font: 14px;
     font-family: 'Frank Ruhl Libre', serif;
     margin-bottom: 15px;
 }
-
 .blog__title {
-    color: rgb(38, 29, 23);
+    color: var(--colot-title);
     font-size: 45px;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-.wheat-separator {
+.wheat__separator-blog {
     margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 24px;
+    width: 100px;
 }
-
 .blog__subtitle {
-    color: rgb(97, 78, 68);
+    color: var(--color-subtitle);
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     padding-bottom: 50px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
 }
-
-.blog-articles {
+/* /* .articles {
     border: 2px;
     border-style: solid;
-    border-color: rgb(97, 78, 68);
-    border-width: 2px;
-    padding: 5px;
-    box-sizing: px;
-    text-align: center;
-    padding-left: 350px;
-    margin-bottom: 500px;
-    width: 930px;
-    height: 450px;
-    min-width: 270px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 300px;
-    display: flex
-}
-
-.blog__text {
+    border-color: #d9d6cd;
+    border-width: 1px;
+    width: 970px;
+    height: 470px;
+    margin-left: auto;
+    margin-right:auto; */
+/* } */ 
+.articles__text {
     color: rgb(38, 29, 23);
     font-size: 24px;
     width: 970px;
     height: 470px;
     display: flex;
-    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    
+    /* margin: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: #d9d6cd;
+    border-width: 1px;
+}
+.blog__button {
+    background-color: rgb(44, 133, 54);
+    border-color: rgb(44, 133, 54);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 17px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    display: flex;
+    width: 160px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration-line: none;
+    text-align: center;
+    justify-content: space-around;
+    /* margin-left: 460px; */
+    margin-top: 460px; 
+    margin-left: auto;
+    margin-right: auto;
     
 }
+.blog__button:hover {
+    background-color: #0d3b10;
+    border-color: #0d3b10;
+}
 
+@media (max-width: 900px) {
+    /* .blog {
+        display: flex;
+        flex-direction: column;
+    } */
+/* .blog__container {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.blog__subtitle {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.articles__text {
+    width: 400px;
+    height:400px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+}
+/* @media (min-width:1000px) {
+    .articles__text {
+        width: 970px;
+    }
+} */

@@ -1,0 +1,40 @@
+.about-us__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-us__image {
+    width: 570px;
+    height: 706px;
+    display: block;
+    margin-top: 50px;
+}
+.about-us__text {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.about-us__title {
+    color: var(--title-text-color);
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    /* margin-top: 50px; */
+}
+.about-us__subtitle {
+    color: var(--subtitle-text-color);
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+}
+.about-us__main-text1 {
+    color: var( --text-color);
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.about-us__main-text2 {
+    color: var( --text-color);
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+}

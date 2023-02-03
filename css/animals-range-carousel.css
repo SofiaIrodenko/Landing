@@ -1,0 +1,28 @@
+ .animals-range__carousel {
+    display:grid;
+    grid-template-columns: 100px 1fr 100px;
+}
+.carousel__slide-container {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 350px;
+    /* margin-right: 50px; */
+    margin-left: -60px;
+} 
+
+.animals-range__carousel--second{
+    transform: scale(1.2);
+}
+.carousel__btn-prev {
+    border: none;
+    background-color: var(--background-color);
+    transform: rotate(180deg);
+    width: 30px;
+}
+.carousel__btn-next{
+    border: none; 
+    background-color: var(--background-color);
+    width: 30px; 
+}
