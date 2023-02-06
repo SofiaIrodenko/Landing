@@ -20,9 +20,16 @@
     background-color: var(--background-color);
     transform: rotate(180deg);
     width: 30px;
+    color: var(--text-color);
 }
 .carousel__btn-next{
     border: none; 
     background-color: var(--background-color);
     width: 30px; 
+    color: var(--text-color);
+}
+@media (max-width: 990px) {
+    .animals-range__carousel {
+        margin: auto;
+    }
 }
