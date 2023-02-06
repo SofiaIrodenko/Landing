@@ -32,4 +32,7 @@
     .animals-range__carousel {
         margin: auto;
     }
+    .carousel__slide-container {
+        margin-top: 80px;
+    }
 }

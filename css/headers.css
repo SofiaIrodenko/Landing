@@ -173,7 +173,7 @@
     margin-top: 50px;
 }
 
-.header__picture {
+/* .header__picture {
     width: 500px;
     border-color: white;
     border-style: solid;
@@ -183,7 +183,7 @@
     margin-top: -100px;
     float: right;
 
-}
+} */
 .header__button {
     margin-right: 20px;
 }
@@ -247,6 +247,12 @@
     margin-top: 60px;
 }
 @media (max-width: 900px) {
+    .header__banner {
+        min-height: 500px;
+        min-width: 300px;
+        background-position: 30% 70%;
+      
+    }
     .header__links {
         display: flex;
         flex-direction: column;
@@ -258,3 +264,9 @@
         margin-left: 70px;
         margin-top: 10px;
     }
+    .header__text {
+        /* color:    #a795d1; */
+        font-weight: bold;
+    }
+}
+ 
