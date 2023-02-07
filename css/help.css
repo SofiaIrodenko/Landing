@@ -1,57 +1,69 @@
-.about-us__content {
+.help__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
+    /* justify-content: center; */
 }
-.about-us__image {
-    /* width: 570px;
-    height: 706px; */
-    width: 95%;
-    height: 95%;
+.help__image {
+    width: 90%;
+    /* height: 60%; */
     display: block;
     margin-top: 50px;
 }
-.about-us__text {
+
+.help__text {
     margin-top: 100px;
     margin-left: 40px;
 }
-.about-us__title {
+
+.help__title {
     color: var(--title-text-color);
     font-family: 'Rubik', sans-serif;
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 40px;
-    
 }
-.about-us__subtitle {
+
+.help__subtitle {
     color: var(--subtitle-text-color);
     font-family: Poppins;
     font-size: 19px;
     font-weight: 500;
     margin-bottom: 30px;
 }
-.about-us__main-text1 {
+
+.help__list-item {
     color: var(--text-color);
     font-family: Poppins;
     font-size: 17px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+ ul li {
+    list-style-image: url('');
+}
+.help__main-text{
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--subtitle-text-color);
+    text-align: left;
+    margin-left: 0px;
 
 }
-.about-us__main-text2 {
-    color: var(--text-color);
-    font-family: Poppins;
-    font-size: 17px;
-    font-weight: 400;
-    margin-bottom: 30px;
+.help__accent-text {
+    color: var(--second-accent-color);
 }
+
 @media (max-width: 900px) {
-    .about-us__content {
+    .help__content {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .about-us__image {
+    .help__image {
         margin:auto;
         margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
