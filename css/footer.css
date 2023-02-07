@@ -1,3 +1,10 @@
+   .footer {
+    margin-top: -200px;
+   }
+   .footer__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+   }
    .footer__question{
     font-family: Rubik;
     font-size: 38px;
@@ -13,11 +20,43 @@
     color: var(--subtitle-text-color);
     margin-bottom: 30px;
    }
-   .footer__info {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
+   .footer__contacts-title{
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--title-text-color);
+        margin-bottom: 4px;
+        margin-left: 15px;
+    }
+
+   .footer__contacts-text  {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    color: var( --text-color);
+    margin-left: 15px;
    }
+
+   .footer__contacts-text-link{
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    color: var( --text-color);
+    margin-left: 15px;
+    text-decoration: none;
+    text-decoration-line: none;
+   }
+
+ /* .footer__info {`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ } */
+
+   
    .footer__addres {
     display: flex;
     flex-direction: row;
@@ -40,20 +79,23 @@
     border-radius: 50px;
     background-color: #fb5d31;
     color: white;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     padding-top: 8px;
-    padding-bottom: 5px;}
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
 
     .footer__hours-image{
         border-style: solid;
         border-radius: 50px;
         background-color: #96cbff;
         color: white;
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
         padding-top: 8px;
         padding-bottom: 5px;
+        margin-bottom: 50px;
     }
     
     .footer__contacts-image {
@@ -61,12 +103,15 @@
     border-radius: 50px;
     background-color: #f6c141;
     color: white;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     padding-top: 8px;
     padding-bottom: 5px;
+    margin-bottom: 50px;
     }
 
+ 
+    
     .question__form {
         display: block;
         display: flex;
@@ -75,7 +120,8 @@
         background-color: white;
         justify-content: center;
         margin: auto;
-        width: 550px;
+        /* width: 550px; */
+        width: 100%;
         height: 420px;
         padding: 39px 55px;
         align-items: center;
@@ -89,6 +135,8 @@
     background-color: var(--background-color);
         text-align: center;
         margin-bottom: 25px;
+        font-family: Poppins;
+        color: var(--text-color);
     }
     .form__phone {
         border-style: solid;
@@ -99,6 +147,8 @@
     background-color: var(--background-color);
     text-align: center;
     margin-bottom: 25px;
+    font-family: Poppins;
+    color: var(--text-color);
     }
     .form__petname {
         border-style: solid;
@@ -109,6 +159,8 @@
     background-color: var(--background-color);
     text-align: center;
     margin-bottom: 25px;
+    font-family: Poppins;
+    color: var(--text-color);
     }
     .form__service {
         border-style: solid;
@@ -119,6 +171,8 @@
         background-color: var(--background-color);
         text-align: center;
         margin-bottom: 25px;
+        font-family: Poppins;
+        color: var(--text-color);
     }
     .form__date {
         border-style: solid;
@@ -129,6 +183,8 @@
     background-color: var(--background-color);
     text-align: center;
     margin-bottom: 25px;
+    font-family: Poppins;
+    color: var(--text-color);
     }
     .form__submit {
         background-color: rgb(255, 91, 46);
@@ -145,4 +201,24 @@
     white-space: nowrap;
     width: 220px;
     height: 50px;
+    }
+
+    @media (max-width: 900px) {
+        .footer__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .question__form {
+            width: 80%;
+        } 
+        .footer__question {
+            text-align: center;
+        }
+        .footer__qustion-text {
+            text-align: center;
+        }
+        .footer__addres {
+          
+        }
     }
